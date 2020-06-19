@@ -33,7 +33,7 @@ Example python script which saves speech intervals in json file:
 
 Example pyhton code to plot detected speech regions:
 ```python
-from vad import VoiceActivityDetector
+from vad_simple_lib import VoiceActivityDetector
 
 filename = '/Users/user/wav-sample.wav'
 v = VoiceActivityDetector(filename)
